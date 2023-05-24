@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  padding: 10px 0px;
+}
+
+.container {
+  width: 50%;
+  margin-top: 20px;
+  height: 50px;
+  margin-left: 300px;
+  background-color: transparent;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul.menu li {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(17, 17, 17);
+  text-decoration: none;
+}
+
+.btn {
+  background-color: brown;
+}
+
+.text-center {
+  text-align: center;
+  background-image: url(https://www.garagegymreviews.com/wp-content/uploads/The-Rock-Home-Gym.png);
+  height: 100vh;
+  background-size: 100%;
+  background-position: center;
+}
+
+.text-white {
+  color: rgb(14, 14, 13);
+  padding-top: 100px;
+}
+
+.slogan b {
+  font-size: 30px;
+  display: block;
+  text-transform: capitalize;
+}
+
+.slogan i {
+  font-size: 70px;
+  display: block;
+  text-transform: capitalize;
+}
